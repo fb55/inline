@@ -3,6 +3,10 @@
 	"version": "0.0.0",
 	"description": "inline all images, stylesheets and scripts of a webpage",
 	"author": "Felix Boehm <me@feedic.com>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fb55/node-inline.git"
+	},
 	"dependencies": {
 		"htmlparser2": "2.5",
 		"cornet": "0.1",
