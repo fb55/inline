@@ -1,0 +1,12 @@
+{
+	"name": "inline",
+	"version": "0.0.0",
+	"description": "inline all images, stylesheets and scripts of a webpage",
+	"author": "Felix Boehm <me@feedic.com>",
+	"dependencies": {
+		"htmlparser2": "2.5",
+		"cornet": "0.1",
+		"domutils": "1.0",
+		"minreq": "0"
+	}
+}
