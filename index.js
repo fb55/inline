@@ -64,14 +64,16 @@ function Inline(url, options, cb){
 		handler.select("link[rel=stylesheet][href]", function(elem){
 			that.load(elem.attribs.href, function(err, resp, body){
 				if(err) return; //do nothing
-				var idx = elem.parent.lastIndexOf(elem);
-				elem.parent.splice(idx, 1, {
+				var idx = elem.parent.children.lastIndexOf(elem);
+				//replace the element
+				elem.parent.children.splice(idx, 1, {
 					type: ElementType.Style,
 					children: [{
 						type: ElementType.Text,
 						data: body.toString("utf-8")
 					}]
 				});
+				that.processStyleElement(elem.parent.children[idx]);
 			});
 		});
 		//inline url() and @import
