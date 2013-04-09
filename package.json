@@ -1,6 +1,6 @@
 {
 	"name": "inline",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "inline all images, stylesheets and scripts of a webpage",
 	"author": "Felix Boehm <me@feedic.com>",
 	"repository": {
@@ -8,7 +8,7 @@
 		"url": "https://github.com/fb55/node-inline.git"
 	},
 	"dependencies": {
-		"htmlparser2": "2.5",
+		"htmlparser2": "3.0",
 		"cornet": "0.1",
 		"domutils": "1.0",
 		"minreq": "0"
