@@ -1,16 +1,16 @@
 {
-	"name": "inline",
-	"version": "0.0.1",
-	"description": "inline all images, stylesheets and scripts of a webpage",
-	"author": "Felix Boehm <me@feedic.com>",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/fb55/node-inline.git"
-	},
-	"dependencies": {
-		"htmlparser2": "3.7",
-		"cornet": "0.1",
-		"domutils": "1.5",
-		"minreq": "0"
-	}
+  "name": "inline",
+  "version": "0.0.2",
+  "description": "inline all images, stylesheets and scripts of a webpage",
+  "author": "Felix Boehm <me@feedic.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fb55/node-inline.git"
+  },
+  "dependencies": {
+    "htmlparser2": "3.7",
+    "cornet": "0.1",
+    "domutils": "1.5",
+    "minreq": "0"
+  }
 }
