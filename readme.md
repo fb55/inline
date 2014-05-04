@@ -2,7 +2,7 @@
 
 inline all images, stylesheets and scripts of a webpage.
 
-This is a (partetial) port of [`remy/node-inliner`](https://github.com/remy/inliner) to my [`htmlparser2`](http://npm.im/htmlparser) module.
+This is a (partial) port of [`remy/node-inliner`](https://github.com/remy/inliner) to my [`htmlparser2`](http://npm.im/htmlparser) module.
 
 ####installation
 
