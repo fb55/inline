@@ -1,14 +1,14 @@
-#node-inline
+# node-inline
 
 inline all images, stylesheets and scripts of a webpage.
 
 This is a (partial) port of [`remy/node-inliner`](https://github.com/remy/inliner) to my [`htmlparser2`](http://npm.im/htmlparser) module.
 
-####installation
+#### installation
 
     npm i inline
 
-####usage
+#### usage
 
 ```js
 var Inline = require("inline"),
@@ -27,7 +27,7 @@ minreq.get("http://feedic.com/").pipe(
 ));
 ```
 
-####todo
+#### todo
 
 `inline` currently doesn't minify inlined scripts & stylesheets, and also doesn't support gzip compressed sources. At least support for gzip compression is planned.
 
