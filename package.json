@@ -8,7 +8,7 @@
     "url": "https://github.com/fb55/node-inline.git"
   },
   "dependencies": {
-    "htmlparser2": "~3.9.2",
+    "htmlparser2": "~3.10.0",
     "cornet": "0.1",
     "domutils": "~1.7.0",
     "minreq": "0"
