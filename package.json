@@ -11,6 +11,6 @@
     "htmlparser2": "~3.10.0",
     "cornet": "0.1",
     "domutils": "~1.7.0",
-    "minreq": "0"
+    "minreq": "^0.2.3"
   }
 }
