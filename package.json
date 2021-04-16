@@ -10,7 +10,7 @@
   "dependencies": {
     "htmlparser2": "~6.1.0",
     "cornet": "0.1",
-    "domutils": "~2.5.0",
+    "domutils": "~2.6.0",
     "minreq": "0"
   }
 }
