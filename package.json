@@ -8,9 +8,17 @@
     "url": "https://github.com/fb55/node-inline.git"
   },
   "dependencies": {
-    "htmlparser2": "~6.1.0",
     "cornet": "0.1",
     "domutils": "~2.6.0",
+    "htmlparser2": "~6.1.0",
     "minreq": "0"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.0"
+  },
+  "prettier": {
+    "tabWidth": 4
   }
 }
