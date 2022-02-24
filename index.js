@@ -78,7 +78,8 @@ class Inline extends EventEmitter {
                     const idx = elem.parent.children.lastIndexOf(elem);
                     // Replace the element
                     elem.parent.children.splice(idx, 1, {
-                        type: ElementType.Style,
+                        type: 'tag',
+                        name: ElementType.Style,
                         children: [
                             {
                                 type: ElementType.Text,
