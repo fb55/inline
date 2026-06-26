@@ -16,7 +16,7 @@
   "devDependencies": {
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.8.5"
   },
   "prettier": {
     "tabWidth": 4
