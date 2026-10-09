@@ -146,10 +146,10 @@ class Inline extends EventEmitter {
             this.cb(null, this.dom.map(DomUtils.getOuterHTML).join(""));
         }
     }
-    processStyleElement(elem) {
+    processStyleElement() {
         // TODO
     }
-    minifyScript(elem) {
+    minifyScript() {
         // TODO
     }
     getDataURI(path, cb) {
