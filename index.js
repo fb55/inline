@@ -33,7 +33,7 @@ class Inline extends EventEmitter {
                 this.getDataURI(elem.attribs.src, (err, uri) => {
                     if (err) return; // Do nothing
                     elem.attribs.src = uri;
-                })
+                }),
             );
         }
 
@@ -61,12 +61,12 @@ class Inline extends EventEmitter {
                         ];
                         delete elem.attribs.src; // Remove the attribute
                         this.minifyScript(elem);
-                    })
+                    }),
             );
 
             // Minify scripts
             handler.select("script:not([src])", (elem) =>
-                this.minifyScript(elem)
+                this.minifyScript(elem),
             );
         }
 
@@ -88,7 +88,7 @@ class Inline extends EventEmitter {
                         ],
                     });
                     this.processStyleElement(elem.parent.children[idx]);
-                })
+                }),
             );
             // Inline url() and @import
             handler.select("style", (elem) => this.processStyleElement(elem));
@@ -119,11 +119,11 @@ class Inline extends EventEmitter {
 
         if (!/^https?:\/\//.test(path)) {
             fs.readFile(path, (err, data) =>
-                this.emit(`l ${path}`, err, null, data)
+                this.emit(`l ${path}`, err, null, data),
             );
         } else {
             minreq({ uri: path, only2xx: true }, (err, resp, data) =>
-                this.emit(`l ${path}`, err, resp, data)
+                this.emit(`l ${path}`, err, resp, data),
             );
         }
 
@@ -161,8 +161,8 @@ class Inline extends EventEmitter {
                 cb(
                     null,
                     `data:${res.headers["content-type"]};base64,${body.toString(
-                        "base64"
-                    )}`
+                        "base64",
+                    )}`,
                 );
             }
         });

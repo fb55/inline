@@ -1,26 +1,26 @@
 {
-  "name": "inline",
-  "version": "0.0.2",
-  "description": "inline all images, stylesheets and scripts of a webpage",
-  "author": "Felix Boehm <me@feedic.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fb55/node-inline.git"
-  },
-  "dependencies": {
-    "cornet": "0.1",
-    "domutils": "~4.0.2",
-    "htmlparser2": "~9.1.0",
-    "minreq": "0"
-  },
-  "devDependencies": {
-    "eslint": "^10.12.0",
-    "eslint-config-prettier": "^10.1.8",
-    "prettier": "^3.9.6",
-    "@eslint/js": "^10.0.1",
-    "globals": "^17.13.0"
-  },
-  "prettier": {
-    "tabWidth": 4
-  }
+    "name": "inline",
+    "version": "0.0.2",
+    "description": "inline all images, stylesheets and scripts of a webpage",
+    "author": "Felix Boehm <me@feedic.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fb55/node-inline.git"
+    },
+    "dependencies": {
+        "cornet": "0.1",
+        "domutils": "~4.0.2",
+        "htmlparser2": "~9.1.0",
+        "minreq": "0"
+    },
+    "devDependencies": {
+        "eslint": "^10.12.0",
+        "eslint-config-prettier": "^10.1.8",
+        "prettier": "^3.9.9",
+        "@eslint/js": "^10.0.1",
+        "globals": "^17.13.0"
+    },
+    "prettier": {
+        "tabWidth": 4
+    }
 }
